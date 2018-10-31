@@ -1,0 +1,124 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(377,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  aes.c
+  aes_run.c
+  Application.c
+c:\users\soniya\desktop\rebroadcasting_in_vanet_v11\code\application\application.c(751): warning C4013: 'encryptBlock' undefined; assuming extern returning int
+c:\users\soniya\desktop\rebroadcasting_in_vanet_v11\code\application\application.c(753): warning C4013: 'aes256' undefined; assuming extern returning int
+c:\users\soniya\desktop\rebroadcasting_in_vanet_v11\code\application\application.c(755): warning C4013: 'des' undefined; assuming extern returning int
+  BSM.c
+  CoAP.c
+  Database_FTP_Custom.c
+  des.c
+  des_run.c
+  Distribution.c
+  Emulation_application.c
+  Encryption.c
+  Multicast.c
+  RandomNumber.c
+  ReBroadcast.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1216,5): warning MSB8012: TargetPath(C:\Users\soniya\Desktop\Rebroadcasting_in_VANET_V11\Code\Application\..\Dll\Application.dll) does not match the Linker's OutputFile property value (C:\Users\soniya\Desktop\Rebroadcasting_in_VANET_V11\Code\Dll\libApplication.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1218,5): warning MSB8012: TargetName(Application) does not match the Linker's OutputFile property value (libApplication). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+aes.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     Creating library ..\Dll\Application.lib and object ..\Dll\Application.exp
+Application.obj : error LNK2019: unresolved external symbol _fnpAllocateMemory_dbg referenced in function _fn_NetSim_Add_DummyPayload
+CoAP.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Emulation_application.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+ReBroadcast.obj : error LNK2001: unresolved external symbol _fnpAllocateMemory_dbg
+Application.obj : error LNK2019: unresolved external symbol _fnpFreeMemory_dbg referenced in function _fn_NetSim_Application_Finish
+CoAP.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+Emulation_application.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+ReBroadcast.obj : error LNK2001: unresolved external symbol _fnpFreeMemory_dbg
+Application.obj : error LNK2019: unresolved external symbol _STR_TO_IP referenced in function _fn_NetSim_Application_GeneratePacket
+Emulation_application.obj : error LNK2001: unresolved external symbol _STR_TO_IP
+Multicast.obj : error LNK2001: unresolved external symbol _STR_TO_IP
+Application.obj : error LNK2019: unresolved external symbol _IP_COPY referenced in function _fn_NetSim_Application_GeneratePacket
+ReBroadcast.obj : error LNK2001: unresolved external symbol _IP_COPY
+Application.obj : error LNK2019: unresolved external symbol _list_free referenced in function _fn_NetSim_Application_Finish
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Socket_PassPacketToInterface referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Socket_GetBufferStatus referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Utilities_GenerateRandomNo referenced in function _get_random_startupdelay
+BSM.obj : error LNK2001: unresolved external symbol _fn_NetSim_Utilities_GenerateRandomNo
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetTrnspProtocol referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetFirstIPAddressAsId referenced in function _fn_NetSim_Application_GeneratePacket
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetMSS referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _DNS_QUERY referenced in function _fn_NetSim_Application_GeneratePacket
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg referenced in function _fn_NetSim_Application_GeneratePacket
+ReBroadcast.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_CreatePacket_dbg
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg referenced in function _fn_NetSim_Application_Run
+ReBroadcast.obj : error LNK2001: unresolved external symbol _fn_NetSim_Packet_FreePacket_dbg
+Application.obj : error LNK2019: unresolved external symbol _fnValidatePacket referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_FragmentPacket referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fnGetPacketSize referenced in function _fn_NetSim_Application_GenerateNextPacket
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Dispatch_to_emulator referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _add_destlist_to_packet referenced in function _fn_NetSim_Application_GeneratePacket
+Application.obj : error LNK2019: unresolved external symbol _get_dest_from_packet referenced in function _fn_NetSim_Application_Run
+ReBroadcast.obj : error LNK2001: unresolved external symbol _get_dest_from_packet
+Application.obj : error LNK2019: unresolved external symbol _get_first_dest_from_packet referenced in function _fn_NetSim_Application_Run
+CoAP.obj : error LNK2001: unresolved external symbol _get_first_dest_from_packet
+Application.obj : error LNK2019: unresolved external symbol _ReportError referenced in function _fn_NetSim_Application_GenerateNextPacket
+Emulation_application.obj : error LNK2001: unresolved external symbol _ReportError
+Multicast.obj : error LNK2001: unresolved external symbol _ReportError
+Multicast.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+ReBroadcast.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Application.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+BSM.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+CoAP.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Database_FTP_Custom.obj : error LNK2001: unresolved external symbol _fnAddEvent_F
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_HTTP_ProcessRequest referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_TrafficGenerator_Video referenced in function _fn_NetSim_Application_GenerateNextPacket
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_TrafficGenerator_Voice referenced in function _fn_NetSim_Application_GenerateNextPacket
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_P2P_SendNextPiece referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_P2P_MarkReceivedPacket referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_Email_GenerateNextPacket referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_ErlangCall_StartCall referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_ErlangCall_EndCall referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_Init_F referenced in function _fn_NetSim_Application_Init
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_Configure_F referenced in function _fn_NetSim_Application_Configure
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_Metrics_F referenced in function _fn_NetSim_Application_Metrics
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_App_RestartApplication referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_Plot referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Application_GetPacketTypeBasedOnApplicationType referenced in function _fn_NetSim_Application_GeneratePacket
+Application.obj : error LNK2019: unresolved external symbol _fnGetSocket referenced in function _fn_NetSim_Application_Run
+ReBroadcast.obj : error LNK2001: unresolved external symbol _fnGetSocket
+Application.obj : error LNK2019: unresolved external symbol _free_app_metrics referenced in function _fn_NetSim_Application_Finish
+Application.obj : error LNK2019: unresolved external symbol _appmetrics_src_add referenced in function _fn_NetSim_Application_Run
+Application.obj : error LNK2019: unresolved external symbol _appmetrics_dest_add referenced in function _fn_NetSim_Application_Run
+Multicast.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+ReBroadcast.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Application.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+BSM.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+CoAP.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+Database_FTP_Custom.obj : error LNK2001: unresolved external symbol __imp__NETWORK
+ReBroadcast.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Application.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+BSM.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+CoAP.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Database_FTP_Custom.obj : error LNK2001: unresolved external symbol __imp__pstruEventDetails
+Application.obj : error LNK2001: unresolved external symbol __imp__wireshark_flag
+BSM.obj : error LNK2019: unresolved external symbol _fnCreatePort referenced in function _fn_NetSim_Application_StartBSM
+CoAP.obj : error LNK2001: unresolved external symbol _fnCreatePort
+Database_FTP_Custom.obj : error LNK2001: unresolved external symbol _fnCreatePort
+Emulation_application.obj : error LNK2001: unresolved external symbol _fnCreatePort
+ReBroadcast.obj : error LNK2019: unresolved external symbol _fnCreateSocketBuffer referenced in function _reset_packet
+BSM.obj : error LNK2001: unresolved external symbol _fnCreateSocketBuffer
+CoAP.obj : error LNK2001: unresolved external symbol _fnCreateSocketBuffer
+Database_FTP_Custom.obj : error LNK2001: unresolved external symbol _fnCreateSocketBuffer
+Emulation_application.obj : error LNK2001: unresolved external symbol _fnCreateSocketBuffer
+CoAP.obj : error LNK2019: unresolved external symbol _fn_NetSim_xmlConfig_GetVal referenced in function _fn_NetSim_Application_ConfigureCOAPTraffic
+Emulation_application.obj : error LNK2001: unresolved external symbol _fn_NetSim_xmlConfig_GetVal
+CoAP.obj : error LNK2019: unresolved external symbol _fn_NetSim_xmlGetChildElement referenced in function _fn_NetSim_Application_ConfigureCOAPTraffic
+Emulation_application.obj : error LNK2001: unresolved external symbol _fn_NetSim_xmlGetChildElement
+CoAP.obj : error LNK2019: unresolved external symbol _fn_NetSim_Config_GetDistribution referenced in function _fn_NetSim_Application_ConfigureCOAPTraffic
+CoAP.obj : error LNK2019: unresolved external symbol _GetXmlVal referenced in function _fn_NetSim_Application_ConfigureCOAPTraffic
+Emulation_application.obj : error LNK2019: unresolved external symbol _isBroadcastIP referenced in function _fn_NetSim_Application_ConfigureEmulationTraffic
+Emulation_application.obj : error LNK2019: unresolved external symbol _isMulticastIP referenced in function _fn_NetSim_Application_ConfigureEmulationTraffic
+Emulation_application.obj : error LNK2019: unresolved external symbol _fn_NetSim_Stack_GetIPAddressAsId referenced in function _fn_NetSim_Application_ConfigureEmulationTraffic
+Multicast.obj : error LNK2019: unresolved external symbol _isHost referenced in function _add_multicast_route
+Multicast.obj : error LNK2019: unresolved external symbol _iptable_add referenced in function _add_multicast_route
+ReBroadcast.obj : error LNK2019: unresolved external symbol _add_dest_to_packet referenced in function _reset_packet
+..\lib\NetworkStack.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\Metrics.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\MemoryBlock.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\lib\IP_Addressing.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+..\Dll\libApplication.dll : fatal error LNK1120: 56 unresolved externals
